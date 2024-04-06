@@ -1,0 +1,43 @@
+.home-page {
+  text-align: center;
+}
+.home-page__container {
+  text-align: center;
+  margin-top: 15%;
+}
+.home-page__img {
+  display: inline-block;
+}
+.home-page__greeting {
+  color: #fe1936;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60.51px;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+}
+.home-page__instruction {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30.26px;
+  color: #302f2f;
+  margin-top: 0%;
+}
+.home-page__barraone {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 123.8px;
+  background-color: #dd1a1a;
+}
+
+.home-page__barratwo {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 69px;
+  background-color: #0c0c0c;
+}

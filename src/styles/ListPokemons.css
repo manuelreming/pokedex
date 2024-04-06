@@ -1,0 +1,57 @@
+.pokemon-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Para centrar los Pokémon horizontalmente */
+}
+
+.pokemon-container__buttons-container {
+  text-align: center;
+  margin-top: -3%;
+  margin-bottom: 3%;
+}
+
+.pokemon-container__buttons-container button {
+  margin-right: 10px;
+}
+.pokemon-container__button-next {
+  color: #ffffff;
+  background: #d93f3f;
+  font-family: Roboto;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 5em;
+}
+.pokemon-container__button-previous {
+  color: #ffffff;
+  background: #d93f3f;
+  font-family: Roboto;
+  border: none;
+  padding: 10px 20px;
+  text-align: center; /* Centra el texto horizontalmente */
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.pokemon-container__button-previous:hover {
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+  font-weight: 700;
+}
+.pokemon-container__button-next:hover {
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+  font-weight: 700;
+}

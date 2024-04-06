@@ -1,0 +1,38 @@
+.form-trainer__button {
+    border: 1px  black; 
+    background-color: transparent; 
+    padding: 10px 20px; 
+    border-radius: 0; 
+    display: inline-block;
+    background-color: #D93F3F;
+    font-family: "Roboto", sans-serif;
+    color : #FFFFFF;
+    font-weight: 500;
+    size: 24px;
+    text-align: center;
+    line-height: 28.13px;
+    width: 209.21px;
+    height: 68px;
+    cursor: pointer;
+   
+    
+  }
+  .form-trainer__button:hover {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3); 
+    font-weight: 700;
+}
+  .form-trainer__input{
+    margin-top: 6%;
+    width: 600px;
+    height: 63px;
+
+  }
+  .form-trainer__input::placeholder {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    size: 30px;
+    line-height: 29.3px;
+    color: #d3d3d3;
+
+
+  }

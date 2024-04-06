@@ -1,0 +1,120 @@
+.card {
+    width: 100%;
+    max-width: 25em;
+    border: 0.5em solid #ccc;
+    border-radius: 1em;
+    margin: 10px;
+    cursor: pointer;
+
+}
+.card:hover {
+    transform: translateY(-5px); 
+  }
+.card__header {
+    background-color: blueviolet;
+    width: 100%;
+    aspect-ratio: 1.5;
+    position: relative;
+    border-radius: 0.4em;
+}
+
+.card__img {
+    position: absolute;
+    width: 60%;
+    top: 2em;
+    left: 50%;
+    transform: translate(-50%);
+
+}
+.card__principal {
+    margin-top: 3em;
+}
+.card__name{
+    text-align: center;
+    text-transform:  capitalize;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 0.2em;
+}
+
+.card__types{
+    --gap-types: 0.7em;
+    display: flex;
+    justify-content: center;
+    gap: var(--gap-types);
+
+
+}
+
+.card__type:not(:nth-child(1))::before{
+    content: '/';
+    padding-right: var(--gap-types);
+}
+
+.card__hr {
+    --margin-y: 1em;
+    margin-top: var(--margin-y);
+    margin-bottom: var(--margin-y);
+    border-top: 1px solid #ccc5;
+    margin-inline: 2em;
+}
+.card__stats {
+    padding: 1em 1em 2em;
+}
+
+.card__list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 1em;
+}
+.card__stat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.3em;
+}
+
+.card__stat__label {
+    font-size: 0.7rem;
+    text-transform: uppercase;;
+}
+
+.card__stat__value{
+    font-size: 1,3rem;
+    font-weight: 300;
+}
+
+.color-electric {
+color: #d8d223;
+}
+
+.color-fire{
+ color: rgb(217, 93, 16);
+}
+.color-grass{
+color: rgb(0, 128, 0)
+}
+.bg-grass {
+    background: linear-gradient(177.56deg, #62DB60 -58.92%, #3BB039 16.57%, #AAFFA8 209.53%);
+
+}
+.bg-fire{
+    background: linear-gradient(176.37deg, #F96D6F -32.26%, #E35825 22.55%, #E8AE1B 125.72%);
+}
+.bg-electric{
+    background-color: yellow;
+}
+.bg-water {
+    background: linear-gradient(179.57deg, #133258 -70.14%, #1479FB 56.16%, #82B2F1 214.85%);
+
+}
+.border-grass {
+    border-color: rgb(0, 128, 0)
+}
+.border-fire {
+   border-color: rgb(217, 93, 16)
+
+}
+.border-water{
+   border-color: rgb(30,12, 170)
+}

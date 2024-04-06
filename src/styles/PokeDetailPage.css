@@ -1,0 +1,25 @@
+.pokedetail__img-container{
+    margin-top: 10em;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
+}
+.pokedetail__name{
+    font-family: Roboto;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 52.73px;
+    text-align: center;
+}    
+.pokedetail__id{
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    height: 50px; 
+    width: 50px; 
+    border-radius: 5px; 
+    margin: 0 auto; 
+    color: #416460;
+    border: 1px solid #D3D3D3
+
+}
